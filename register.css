@@ -1,0 +1,85 @@
+body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 20px 40px 20px 40px;
+          font-family: Arial, sans-serif;
+          background-color:rgb(91,102,182);
+      }
+      h1{
+          margin:20px;
+          text-align: center;
+          
+      }
+      .container{
+          background-color: white;
+          border-radius: 30px;
+          margin:300px 20px 300px 100px;
+          width: 400px;
+      }
+      .container,.text_field{
+          cursor: vertical-text;
+          padding: 20px;
+          border:none;
+          text-align: left;
+          outline:none;
+          border-bottom: 2px;
+      }
+      .button{
+          text-align: center;
+          margin: 20px ;
+          padding: 20px;
+          background-origin: padding-box;
+          cursor: pointer;
+          background-color: turquoise;
+          border-radius: 50px;
+          
+
+      }
+      .signup{
+          text-align: center;
+          padding-bottom: 20px;
+      }
+      input[type="text"],
+      input[type="Email"],
+      input[type="password"],
+      input[type="Confirm password"]
+      {
+         outline: none;
+         padding: 20px;
+         border:none;
+         margin-bottom: 20px;
+         border-bottom: 3px solid grey;
+         height: 1px;
+         font-size: 25px;
+ }
+ input[type="text"]:focus,
+ input[type="Email"]:focus,
+ input[type="password"]:focus,
+ input[type="Confirm password"]:focus{
+     border-bottom: 3px solid plum;
+} 
+ hr {
+          border: none;
+          height: 1px;
+          background-color:grey;
+          margin-bottom:20px;
+      }
+      .content-name{
+          border:none;
+          cursor: text;
+          outline: none;
+      }
+      span{
+          display: block;
+}
+      
+.content-email{
+          border:none;
+          cursor: text;
+          outline: none;
+
+}
+
+
